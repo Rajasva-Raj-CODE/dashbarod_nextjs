@@ -44,8 +44,8 @@ export default function AppSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/logo.png" alt="logo" width={35} height={35} />
-                <span>Dashboard</span>
+                <Image src="/logo.png" alt="AdminDash Pro Logo" width={35} height={35} />
+                <span>AdminDash Pro</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
