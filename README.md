@@ -1,44 +1,47 @@
 # AdminDash Pro 🚀
 
-**AdminDash Pro** is a sleek, modern, and fully responsive admin dashboard built using the latest technologies including **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**. This project is designed for developers, managers, and business analysts who need intuitive data insights, task tracking, and user management features—all in one clean interface.
+**AdminDash Pro** is a sleek, modern, and fully responsive admin dashboard built with cutting-edge technologies including **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**. Designed for developers and business professionals who need intuitive data visualization and management tools.
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black.svg)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0.0-61DAFB.svg)](https://react.dev/)
 
 ## ✨ Features
 
-- 🌗 **Light/Dark Theme Toggle** — Stylish, adaptive UI with Tailwind CSS & [shadcn/ui](https://ui.shadcn.com/) components
-- 📊 **Advanced Charts** — Interactive visualizations using Recharts (bar, line, area, and pie charts)
-- 🧾 **Smart Data Tables** — Built with TanStack Table (sorting, filtering, pagination)
-- ✅ **Task Management** — Simple and effective todo list with state persistence
-- 👤 **User Management** — View, search, and manage detailed user profiles
-- 🔐 **Form Validation** — Type-safe validation using Zod
-- 💸 **Transaction & Metrics** — View content popularity and financial stats
-- 📱 **Responsive Design** — Sidebar and layout adapt across screen sizes
-- 💻 **TypeScript-Based** — Reliable and scalable codebase with type safety
+- 🌗 **Theme System** - Light/dark mode toggle with persistent preference
+- 📊 **Data Visualization** - Interactive charts (Bar, Line, Area, Pie) using Recharts
+- 🧾 **Smart Tables** - Filterable, sortable, paginated tables with TanStack Table
+- ✅ **Task Manager** - CRUD operations with local storage persistence
+- 👥 **User Management** - Searchable user profiles with detailed views
+- 🔐 **Form Validation** - Type-safe forms with Zod validation
+- 💰 **Financial Metrics** - Revenue tracking and transaction history
+- 📱 **Fully Responsive** - Adapts to mobile, tablet, and desktop
+- 🛡 **Type Safety** - Full TypeScript integration
 
 ## 🛠 Tech Stack
 
-- **Framework:** Next.js 15, React 19
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS, shadcn/ui
-- **Charts:** Recharts
-- **Tables:** TanStack Table
-- **Validation:** Zod
+| Category       | Technology                          |
+|---------------|-----------------------------------|
+| Framework     | Next.js 15 (App Router)           |
+| UI Library    | React 19                          |
+| Styling       | Tailwind CSS + shadcn/ui          |
+| Charts        | Recharts                          |
+| Tables        | TanStack Table v8                 |
+| Validation    | Zod                               |
+| State Management | React Context + Local Storage   |
 
 ## 📸 Preview
 
-![AdminDash Pro Screenshot](https://ibb.co/j0PTYK2
-https://ibb.co/yn23sfNF
-https://ibb.co/3mg89kNZ
-https://ibb.co/MDX67L8G)
+<div align="center">
+  <img src="https://i.ibb.co/TjxkGXS/Screenshot-from-2025-05-22-21-54-01.png" width="45%" alt="Light Mode" title="Light Mode"/>
+  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="45%" alt="Dark Mode" title="Dark Mode"/>
+  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="45%" alt="Mobile View" title="Mobile View"/>
+  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="45%" alt="Data Tables" title="Data Tables"/>
+</div>
 
-## 📂 Project Setup
+## 🚀 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/AdminDash-Pro.git
-cd AdminDash-Pro
-
-# Install dependencies
-npm install
-
-# Run the app
-npm run dev
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/AdminDash-Pro.git
+   cd AdminDash-Pro
