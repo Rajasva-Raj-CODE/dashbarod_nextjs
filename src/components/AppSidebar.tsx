@@ -1,4 +1,4 @@
-import { BarChart3, Calendar, ChevronDown, ChevronUp, FileText, FolderKanban, Home, Inbox, LayoutDashboard, LineChart, Plus, Projector, Search, Settings, ShieldCheck, User2, Users } from "lucide-react"
+import { BarChart3, Calendar, ChevronDown, ChevronUp, CreditCard, FileText, FolderKanban, Home, Inbox, LayoutDashboard, LineChart, Plus, Projector, Search, Settings, ShieldCheck, User2, Users } from "lucide-react"
 import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem, SidebarMenuSub, SidebarSeparator } from "./ui/sidebar"
 import Link from "next/link"
 import Image from "next/image"
@@ -169,6 +169,31 @@ export default function AppSidebar() {
             </CollapsibleContent>
           </SidebarGroup>
         </Collapsible>
+        {/*MANAGEMENT*/}
+        <SidebarGroup>
+          <SidebarGroupLabel>Management</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href="/users">
+                    <Users />
+                    Users
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href="/payments">
+                    <CreditCard />
+                    Payments
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
         {/*NESTED*/}
         <SidebarGroup>
           <SidebarGroupLabel>Team Management</SidebarGroupLabel>

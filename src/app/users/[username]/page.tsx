@@ -125,7 +125,77 @@ const userBadges: UserBadge[] = [
   },
 ];
 
-const SingleUserPage = () => {
+// Get user data based on username
+const getUserByUsername = (username: string) => {
+  // This is a mock function that would typically fetch data from an API or database
+  const users = [
+    {
+      id: "1",
+      username: "rajasva",
+      fullName: "Rajasva Raj Srivastava",
+      email: "rajasva@gmail.com",
+      role: "admin",
+      avatarUrl: "https://randomuser.me/api/portraits/men/36.jpg",
+      location: "New York, NY",
+      joinDate: "2025-01-01",
+      bio: "Senior software developer with 5+ years of experience in web development. Specializes in React, Next.js, and TypeScript. Passionate about creating intuitive user interfaces and optimizing application performance.",
+      phone: "+1 234 5678"
+    },
+    {
+      id: "2",
+      username: "johndoe",
+      fullName: "John Doe",
+      email: "johndoe@gmail.com",
+      role: "user",
+      avatarUrl: "https://randomuser.me/api/portraits/men/32.jpg",
+      location: "San Francisco, CA",
+      joinDate: "2024-05-15",
+      bio: "Frontend developer passionate about creating beautiful user interfaces.",
+      phone: "+1 987 6543"
+    },
+    {
+      id: "3",
+      username: "janedoe",
+      fullName: "Jane Doe",
+      email: "janedoe@gmail.com",
+      role: "user",
+      avatarUrl: "https://randomuser.me/api/portraits/women/44.jpg",
+      location: "Chicago, IL",
+      joinDate: "2024-06-20",
+      bio: "UX designer with a focus on creating intuitive and accessible interfaces.",
+      phone: "+1 555 1234"
+    },
+    {
+      id: "4",
+      username: "mikegalloway",
+      fullName: "Mike Galloway",
+      email: "mikegalloway@gmail.com",
+      role: "admin",
+      avatarUrl: "https://randomuser.me/api/portraits/men/41.jpg",
+      location: "Austin, TX",
+      joinDate: "2024-03-10",
+      bio: "Backend developer specializing in Node.js and database optimization.",
+      phone: "+1 444 5678"
+    },
+    {
+      id: "5",
+      username: "mableclayton",
+      fullName: "Mable Clayton",
+      email: "mableclayton@gmail.com",
+      role: "user",
+      avatarUrl: "https://randomuser.me/api/portraits/women/63.jpg",
+      location: "Seattle, WA",
+      joinDate: "2024-07-05",
+      bio: "Full-stack developer with expertise in React and Express.",
+      phone: "+1 333 9876"
+    },
+  ];
+
+  return users.find(user => user.username === username) || users[0]; // Default to first user if not found
+};
+
+const SingleUserPage = ({ params }: { params: { username: string } }) => {
+  const user = getUserByUsername(params.username);
   return (
     <div>
       <Breadcrumb>
@@ -143,7 +213,7 @@ const SingleUserPage = () => {
             <Slash />
           </BreadcrumbSeparator>
           <BreadcrumbItem>
-            <BreadcrumbPage>Rajasva</BreadcrumbPage>
+            <BreadcrumbPage>{user.username}</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
@@ -246,27 +316,29 @@ const SingleUserPage = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Username:</span>
-                <span>rajasva</span>
+                <span>{user.username}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Email:</span>
-                <span>rajasva@gmail.com</span>
+                <span>{user.email}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Phone:</span>
-                <span>+1 234 5678</span>
+                <span>{user.phone}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Location:</span>
-                <span>New York, NY</span>
+                <span>{user.location}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Role:</span>
-                <Badge>Admin</Badge>
+                <Badge variant={user.role === "admin" ? "default" : "outline"}>
+                  {user.role.charAt(0).toUpperCase() + user.role.slice(1)}
+                </Badge>
               </div>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
-              Joined on 2025.01.01
+              Joined on {new Date(user.joinDate).toLocaleDateString()}
             </p>
           </div>
 
@@ -281,16 +353,14 @@ const SingleUserPage = () => {
           <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
             <div className="flex items-center gap-2">
               <Avatar className="size-12">
-                <AvatarImage src="https://randomuser.me/api/portraits/men/36.jpg" />
-                <AvatarFallback>RR</AvatarFallback>
+                <AvatarImage src={user.avatarUrl} alt={user.fullName} />
+                <AvatarFallback>
+                  {user.fullName.split(' ').map(name => name[0]).join('')}
+                </AvatarFallback>
               </Avatar>
-              <h1 className="text-xl font-semibold">Rajasva Raj Srivastava</h1>
+              <h1 className="text-xl font-semibold">{user.fullName}</h1>
             </div>
-            <p>
-              Senior software developer with 5+ years of experience in web
-              development. Specializes in React, Next.js, and TypeScript.
-              Passionate about creating intuitive user interfaces and optimizing
-              application performance.
+            <p>{user.bio}
             </p>
           </div>
           {/*CHART CONTAINER*/}
