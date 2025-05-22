@@ -194,8 +194,13 @@ const getUserByUsername = (username: string) => {
   return users.find(user => user.username === username) || users[0]; // Default to first user if not found
 };
 
-const SingleUserPage = ({ params }: { params: { username: string } }) => {
-  const user = getUserByUsername(params.username);
+// Define the type for params
+type ParamsType = Promise<{ username: string }>;
+
+const SingleUserPage = async ({ params }: { params: ParamsType }) => {
+  // Await the params before using them
+  const { username } = await params;
+  const user = getUserByUsername(username);
   return (
     <div>
       <Breadcrumb>
