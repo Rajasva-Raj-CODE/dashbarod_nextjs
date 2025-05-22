@@ -1,49 +1,36 @@
-# AdminDash Pro 🚀
+# 🚀 AdminDash Pro
 
-**AdminDash Pro** is a sleek, modern, and fully responsive admin dashboard built with cutting-edge technologies including **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**. Designed for developers and business professionals who need intuitive data visualization and management tools.
+**AdminDash Pro** is a modern, responsive admin dashboard application built with the latest web technologies. Designed for performance, usability, and a seamless user experience, it offers a sleek interface and a robust set of features for managing users, tasks, transactions, and more.:contentReference[oaicite:2]{index=2}
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-15.0.0-black.svg)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.0.0-61DAFB.svg)](https://react.dev/)
+![Dashboard Screenshot](https://i.ibb.co/TjxkGXS/Screenshot-from-2025-05-22-21-54-01.png)
 
 ## ✨ Features
 
-- 🌗 **Theme System** - Light/dark mode toggle with persistent preference
-- 📊 **Data Visualization** - Interactive charts (Bar, Line, Area, Pie) using Recharts
-- 🧾 **Smart Tables** - Filterable, sortable, paginated tables with TanStack Table
-- ✅ **Task Manager** - CRUD operations with local storage persistence
-- 👥 **User Management** - Searchable user profiles with detailed views
-- 🔐 **Form Validation** - Type-safe forms with Zod validation
-- 💰 **Financial Metrics** - Revenue tracking and transaction history
-- 📱 **Fully Responsive** - Adapts to mobile, tablet, and desktop
-- 🛡 **Type Safety** - Full TypeScript integration
+- **Framework & Language**: :contentReference[oaicite:4]{index=4}
+- **Type Safety**: :contentReference[oaicite:7]{index=7}
+- **Styling**: :contentReference[oaicite:10]{index=10}
+- **Data Visualization**: :contentReference[oaicite:13]{index=13}
+- **Advanced Tables**: :contentReference[oaicite:16]{index=16}
+- **Form Validation**: :contentReference[oaicite:19]{index=19}
+- **Responsive Design**: :contentReference[oaicite:22]{index=22}
+- **User Management**: :contentReference[oaicite:25]{index=25}
+- **Task Management**: :contentReference[oaicite:28]{index=28}
+- **Transaction Tracking**: :contentReference[oaicite:31]{index=31}:contentReference[oaicite:33]{index=33}
 
-## 🛠 Tech Stack
+## 📸 Screenshots
 
-| Category       | Technology                          |
-|---------------|-----------------------------------|
-| Framework     | Next.js 15 (App Router)           |
-| UI Library    | React 19                          |
-| Styling       | Tailwind CSS + shadcn/ui          |
-| Charts        | Recharts                          |
-| Tables        | TanStack Table v8                 |
-| Validation    | Zod                               |
-| State Management | React Context + Local Storage   |
+![:contentReference[oaicite:35]{index=35}](https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png)
+*User Management Interface*
 
-## 📸 Preview
+![:contentReference[oaicite:38]{index=38}](https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png)
+*Task Management View*
 
-<p align="center">
-  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="750" alt="Dark Mode">
-</p>
+![:contentReference[oaicite:41]{index=41}](https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png)
+*Transaction Tracking Dashboard*:contentReference[oaicite:43]{index=43}
 
-<p align="center">
-  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="45%" alt="Mobile View">
-  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="45%" alt="Data Tables">
-</p>
+## 🛠️ Installation
 
-## 🚀 Installation
-
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/AdminDash-Pro.git
-   cd AdminDash-Pro
+   git clone https://github.com/yourusername/admindash-pro.git
+   cd admindash-pro
