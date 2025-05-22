@@ -32,12 +32,14 @@
 
 ## 📸 Preview
 
-<div align="center">
-  <img src="https://i.ibb.co/TjxkGXS/Screenshot-from-2025-05-22-21-54-01.png" width="45%" alt="Light Mode" title="Light Mode"/>
-  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="45%" alt="Dark Mode" title="Dark Mode"/>
-  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="45%" alt="Mobile View" title="Mobile View"/>
-  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="45%" alt="Data Tables" title="Data Tables"/>
-</div>
+<p align="center">
+  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="750" alt="Dark Mode">
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="45%" alt="Mobile View">
+  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="45%" alt="Data Tables">
+</p>
 
 ## 🚀 Installation
 
