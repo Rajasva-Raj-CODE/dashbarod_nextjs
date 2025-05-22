@@ -25,7 +25,10 @@
 
 ## 📸 Preview
 
-![AdminDash Pro Screenshot](link-to-your-screenshot.png)
+![AdminDash Pro Screenshot](https://ibb.co/j0PTYK2
+https://ibb.co/yn23sfNF
+https://ibb.co/3mg89kNZ
+https://ibb.co/MDX67L8G)
 
 ## 📂 Project Setup
 
