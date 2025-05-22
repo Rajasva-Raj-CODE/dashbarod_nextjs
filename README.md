@@ -2,30 +2,6 @@
 
 A modern, responsive admin dashboard application built with the latest technologies to deliver seamless performance, elegant UI, and developer-friendly code structure.
 
-<p align="center">
-  <img src="https://i.ibb.co/TjxkGXS/Screenshot-from-2025-05-22-21-54-01.png" width="750" alt="Dashboard Overview" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="750" alt="Dark Mode Layout" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="750" alt="Sidebar Navigation" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="750" alt="Interactive Charts and Tasks" />
-</p>
-
----
-
 ## 🔧 Built With
 
 - **Next.js 15**
@@ -54,6 +30,28 @@ A modern, responsive admin dashboard application built with the latest technolog
 AdminDash Pro reflects my expertise in modern frontend development, combining performance with usability and design. Every component is crafted with scalability, accessibility, and user experience in mind.
 
 ---
+<p align="center">
+  <img src="https://i.ibb.co/TjxkGXS/Screenshot-from-2025-05-22-21-54-01.png" width="750" alt="Dashboard Overview" />
+</p>
 
-## 📂 Folder Structure
+---
+
+<p align="center">
+  <img src="https://i.ibb.co/Y7grjRNB/Screenshot-from-2025-05-22-21-53-42.png" width="750" alt="Dark Mode Layout" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://i.ibb.co/5hbzg28H/Screenshot-from-2025-05-22-21-53-13.png" width="750" alt="Sidebar Navigation" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://i.ibb.co/gMnVJCvP/Screenshot-from-2025-05-22-21-52-53.png" width="750" alt="Interactive Charts and Tasks" />
+</p>
+
+---
+
 
